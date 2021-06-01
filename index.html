@@ -26,9 +26,12 @@
       <header class="cabecera text-center py-2 row">
         <h1 class="col-12">Señores que te apuntan con el dedo</h1>
         <span class="col-12 mt-2"
-          >0 señores que te apuntan con el dedo marcados</span
+          ><span class="total">0</span> señores que te apuntan con el dedo
+          marcados</span
         >
-        <button class="col-2 offset-5 btn mt-2">Marcar todos</button>
+        <a href="marcar-todos" class="marcar-todos col-2 offset-5 btn mt-2">
+          Marcar todos
+        </a>
       </header>
       <main class="principal mt-2 row">
         <article class="senyor senyor-molde col-8 offset-2 mb-4">
@@ -40,15 +43,15 @@
             <div class="info col">
               <h2 class="nombre-senyor"></h2>
               <ul class="datos list-unstyled mt-2">
-                <li class="row">
+                <li class="datos-profesion row">
                   <span class="nombre-dato col-4">Profesión:</span>
                   <span class="valor-dato col"></span>
                 </li>
-                <li class="row">
+                <li class="datos-estado row">
                   <span class="nombre-dato col-4">Estado:</span>
                   <span class="valor-dato col"></span>
                 </li>
-                <li class="row">
+                <li class="datos-twitter row">
                   <span class="nombre-dato col-4">Twitter:</span>
                   <span class="valor-dato col"></span>
                 </li>

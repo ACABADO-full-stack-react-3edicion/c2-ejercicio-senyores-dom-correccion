@@ -11,13 +11,15 @@ body {
   padding-bottom: 15px;
   position: relative;
 }
-.senyor:hover .icono {
+.senyor:hover .icono,
+.senyor.marcado .icono {
   display: block;
 }
 .senyor .avatar img {
   transition: transform 0.3s;
 }
-.senyor:hover .avatar img {
+.senyor:hover .avatar img,
+.senyor.marcado .avatar img {
   transform: scaleX(-1);
 }
 .avatar {

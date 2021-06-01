@@ -1,4 +1,5 @@
-export const senyores = [
+// eslint-disable-next-line import/prefer-default-export
+export const senyoresAPI = [
   {
     id: 1,
     nombre: "El Fary",
